@@ -1,3 +1,5 @@
+
+#if UNITY_EDITOR
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,3 +16,5 @@ public class RemoveMissingScripts : Editor
         Debug.Log($"Removed {count} missing scripts");
     }
 }
+
+#endif
